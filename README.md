@@ -82,7 +82,7 @@ $('#input-text').on('error_jvalidfields', log);
 - success
 - error
 
-### data-status
+### data-formated
 Динамическое свойство data-formated предназначено для работы AJAX - возможность забирать "чистые" данные из этого поля, а не из свойства *value*.
 
 ## LICENSE
