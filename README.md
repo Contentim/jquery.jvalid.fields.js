@@ -1,7 +1,7 @@
 # Manual jquery.jvalid.fields.js
 
 ## Relation
-Зависимость от [jQuery](https://code.jquery.com/) - по-умолчанию.
+[jQuery](https://code.jquery.com/) - по-умолчанию.
 
 ## Install
 ```
