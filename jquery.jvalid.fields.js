@@ -8,6 +8,7 @@
             type: 'text', // default type
             error_msg: '', // default message to error
             success_msg: '', // default message to success
+            textColorError: '#ee5a5a', // text color field to error - 'color' OR 'HEX'
             borderColor: '#ee5a5a', // border color field to error - 'color' OR 'HEX'
         };
 
@@ -18,7 +19,7 @@
                 options = $.extend(defaults, opts);
 
                 // dynamic CSS
-                $('body').append('<div id="scoped_css_valid_fields"><style>.error_valid{ border-color: '+options.borderColor+'!important;</style></div>');
+                $('body').append('<div id="scoped_css_valid_fields"><style>.error_valid{ border-color: '+options.borderColor+'!important;} .valid_text_error {color: '+options.textColor+'!important;}</style></div>');
 
                 // obj - parent object
                 // this - method jvalidFieldsMethod
