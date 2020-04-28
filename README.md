@@ -1,7 +1,7 @@
 # Manual jquery.jvalid.fields.js
 
 ## Relation
-[jQuery](https://code.jquery.com/) - по-умолчанию.
+[CDN jQuery](https://code.jquery.com/) - по-умолчанию.
 
 ## Install
 ```
