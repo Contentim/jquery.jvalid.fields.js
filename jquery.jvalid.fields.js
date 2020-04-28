@@ -70,7 +70,7 @@
 
         switch (options.type) {
             case 'text-number':
-                re = /[a-zA-Zа-яА-Я_0-9\s\-]*/g;
+                re = /[a-zA-Zа-яёЁА-Я_0-9\s\-]*/g;
                 testRegexp(val, re, options.type);
 
                 break;
